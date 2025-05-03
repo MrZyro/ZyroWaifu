@@ -3,7 +3,7 @@ from pyrogram.types import Message
 from pymongo import ReturnDocument
 from TEAMZYRO import collection, SUDO, app, user_collection
 from TEAMZYRO.unit.zyro_rarity import rarity_map  # Importing rarity_map
-
+from TEAMZYRO import require_power 
 SUDO_USERS = SUDO
 
 @app.on_message(filters.command("gdelete"))
