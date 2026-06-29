@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/MrZyro/WaifuBot">
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/MrZyro/ZyroWaifu">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" height="40">
   </a>
 </p>
@@ -123,7 +123,7 @@ docker run -d --env-file .env --name waifubot-container waifubot
 Simply click the deployment button below, fill out the environment variables in the Heroku dashboard, and click deploy:
 
 <p align="center">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/MrZyro/WaifuBot">
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/MrZyro/ZyroWaifu">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" height="45">
   </a>
 </p>
