@@ -1,0 +1,80 @@
+{
+  "name": "WaifuBot",
+  "description": "Interactive Waifu & Husbando Catching Telegram Bot featuring database backups, Chess, TicTacToe, and casino games.",
+  "repository": "https://github.com/MrZyro/WaifuBot",
+  "keywords": [
+    "waifu-bot",
+    "telegram-bot",
+    "pyrogram",
+    "mongodb",
+    "anime",
+    "card-game",
+    "blackjack",
+    "minesweeper",
+    "chess",
+    "tictactoe"
+  ],
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID (get from https://my.telegram.org)",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash (get from https://my.telegram.org)",
+      "required": true
+    },
+    "TOKEN": {
+      "description": "Telegram Bot Token (get from @BotFather)",
+      "required": true
+    },
+    "BOT_LOGGING": {
+      "description": "Username or ID of the private logs channel",
+      "value": "babhboy",
+      "required": true
+    },
+    "DATABASE_ID": {
+      "description": "Username or ID of the database channel (Character updates)",
+      "value": "Zlog12",
+      "required": true
+    },
+    "FORCE_JOIN": {
+      "description": "ID of the Force Join chat group or channel (e.g. -100xxx)",
+      "value": "-1002562168076",
+      "required": true
+    },
+    "MONGO_URL": {
+      "description": "MongoDB database connection URL",
+      "required": true
+    },
+    "PHOTO_URL_1": {
+      "description": "First start photo URL",
+      "value": "https://files.catbox.moe/7ccoub.jpg",
+      "required": false
+    },
+    "PHOTO_URL_2": {
+      "description": "Second start photo URL",
+      "value": "https://files.catbox.moe/7ccoub.jpg",
+      "required": false
+    },
+    "SUPPORT_CHAT": {
+      "description": "Support Telegram group link",
+      "value": "https://t.me/oneforall_support",
+      "required": true
+    },
+    "UPDATE_CHAT": {
+      "description": "Update Telegram channel link",
+      "value": "https://t.me/PiratesBotRepo",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram user ID (Owner)",
+      "value": "7638720582",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
